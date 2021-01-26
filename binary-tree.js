@@ -50,5 +50,5 @@ var tree = {
   
   console.log("Here is the original tree:");
   console.log(JSON.stringify(JSON.parse(JSON.stringify(tree))));
-  console.log("Here is the binary tree:");
+  console.log("Here is the inverted binary tree:");
   console.log(JSON.stringify(invertTree(tree)));
